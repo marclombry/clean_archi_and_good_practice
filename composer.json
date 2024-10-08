@@ -1,0 +1,15 @@
+{
+    "require-dev": {
+        "pestphp/pest": "^2.19"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    }
+}

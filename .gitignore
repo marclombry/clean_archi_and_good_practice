@@ -1,0 +1,8 @@
+/vendor
+.htaccess
+composer.lock
+infos.txt
+phpunit.xml
+spec.txt
+env.php
+env_test.php
