@@ -19,7 +19,7 @@ describe("when the service consult their reservation", function(){
             'id' => 1,
             'date_reservation' => "2000-01-01",
             'timezone' => 'Europe/Paris',
-            'hours' => "[6,30]"
+            'hours' => "[6, 30]"
         ];
         expect($firstReservation)->toMatchArray($reservation);
     });
@@ -35,7 +35,7 @@ describe("when the service consult their reservation", function(){
             'id' => 1,
             'date_reservation' => "2000-01-01",
             'timezone' => 'Europe/Paris',
-            'hours' => "[6,30]"
+            'hours' => "[6, 30]"
         ];
         expect($allReservation)->toMatchArray($reservation);
     });

@@ -3,4 +3,6 @@ this is a project that shows the structure of a clean architecture coupled with 
 
 The goal is to see the code and the structure but if you want to test the project you will have to do a "composer install" and change a file called env_test.php with your configuration.
 
+use if you want create_db.sql or change the code.
+
 you can also run the tests with .\vendor\bin\pest tests 
